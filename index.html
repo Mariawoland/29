@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>28</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="index.css">
+
+
+
+    <script>
+
+        var x = 0;
+
+        function gaperadeba() {
+            x = 1;
+            document.getElementById("poto2").style.opacity = "1";
+        }
+
+        function gaperadeba1() {
+            x = 1;
+            document.getElementById("poto1").style.opacity = "1";
+        }
+
+
+        function shepaseba() {
+
+            if (document.getElementById("pirveli").value == "") {
+
+                document.getElementById("pirveli").style.borderBottomColor = "red";
+                document.getElementById("pirveli").style.backgroundColor = "rgb(255, 240, 240)";
+                document.getElementById("pirveli").placeholder = "Please Enter Name";
+                return false;
+
+            }
+
+            if (document.getElementById("pirveli").value !== "") {
+
+                document.getElementById("pirveli").style.borderBottomColor = "gray";
+                document.getElementById("pirveli").style.backgroundColor = "transparent";
+                document.getElementById("pirveli").placeholder = "";
+
+            }
+
+            if (document.getElementById("meore").value == "") {
+
+                document.getElementById("meore").style.borderBottomColor = "red";
+                document.getElementById("meore").style.backgroundColor = "rgb(255, 240, 240)";
+                document.getElementById("meore").placeholder = "Please Enter Card Number";
+                return false;
+
+            }
+
+            if (document.getElementById("meore").value !== "") {
+
+                document.getElementById("meore").style.borderBottomColor = "gray";
+                document.getElementById("meore").style.backgroundColor = "transparent";
+                document.getElementById("meore").placeholder = "";
+
+            }
+
+            if (document.getElementById("mesame").value == "") {
+
+                document.getElementById("mesame").style.borderBottomColor = "red";
+                document.getElementById("mesame").style.backgroundColor = "rgb(255, 240, 240)";
+                document.getElementById("mesame").placeholder = "Please Enter Date";
+                return false;
+
+            }
+
+            if (document.getElementById("mesame").value !== "") {
+
+                document.getElementById("mesame").style.borderBottomColor = "gray";
+                document.getElementById("mesame").style.backgroundColor = "transparent";
+                document.getElementById("mesame").placeholder = "";
+
+            }
+
+            if (document.getElementById("meotxe").value == "") {
+
+                document.getElementById("meotxe").style.borderBottomColor = "red";
+                document.getElementById("meotxe").style.backgroundColor = "rgb(255, 240, 240)";
+                document.getElementById("meotxe").placeholder = "Please Enter CVV";
+                return false;
+
+            }
+
+            if (document.getElementById("meotxe").value !== "") {
+
+                document.getElementById("meotxe").style.borderBottomColor = "gray";
+                document.getElementById("meotxe").style.backgroundColor = "transparent";
+                document.getElementById("meotxe").placeholder = "";
+
+            }
+
+            if (x !== 1) {
+
+                document.getElementById("text-004").style.color = "red";
+                return false;
+
+            }
+
+            if (x == 1) {
+
+                document.getElementById("text-004").style.color = "gray";
+
+            }
+
+        }
+
+
+        function shepaseba1() {
+
+            if (document.getElementById("pirveli1").value == "") {
+
+                document.getElementById("pirveli1").style.borderBottomColor = "red";
+                document.getElementById("pirveli1").style.backgroundColor = "rgb(255, 240, 240)";
+                document.getElementById("pirveli1").placeholder = "Please Enter Name";
+                return false;
+
+            }
+
+            if (document.getElementById("pirveli1").value !== "") {
+
+                document.getElementById("pirveli1").style.borderBottomColor = "gray";
+                document.getElementById("pirveli1").style.backgroundColor = "transparent";
+                document.getElementById("pirveli1").placeholder = "";
+
+            }
+
+            if (document.getElementById("meore1").value == "") {
+
+                document.getElementById("meore1").style.borderBottomColor = "red";
+                document.getElementById("meore1").style.backgroundColor = "rgb(255, 240, 240)";
+                document.getElementById("meore1").placeholder = "Please Enter Card Number";
+                return false;
+
+            }
+
+            if (document.getElementById("meore1").value !== "") {
+
+                document.getElementById("meore1").style.borderBottomColor = "gray";
+                document.getElementById("meore1").style.backgroundColor = "transparent";
+                document.getElementById("meore1").placeholder = "";
+
+            }
+
+            if (document.getElementById("mesame1").value == "") {
+
+                document.getElementById("mesame1").style.borderBottomColor = "red";
+                document.getElementById("mesame1").style.backgroundColor = "rgb(255, 240, 240)";
+                document.getElementById("mesame1").placeholder = "Please Enter Date";
+                return false;
+
+            }
+
+            if (document.getElementById("mesame1").value !== "") {
+
+                document.getElementById("mesame1").style.borderBottomColor = "gray";
+                document.getElementById("mesame1").style.backgroundColor = "transparent";
+                document.getElementById("mesame1").placeholder = "";
+
+            }
+
+            if (document.getElementById("meotxe1").value == "") {
+
+                document.getElementById("meotxe1").style.borderBottomColor = "red";
+                document.getElementById("meotxe1").style.backgroundColor = "rgb(255, 240, 240)";
+                document.getElementById("meotxe1").placeholder = "Please Enter CVV";
+                return false;
+
+            }
+
+            if (document.getElementById("meotxe1").value !== "") {
+
+                document.getElementById("meotxe1").style.borderBottomColor = "gray";
+                document.getElementById("meotxe1").style.backgroundColor = "transparent";
+                document.getElementById("meotxe1").placeholder = "";
+
+            }
+
+            if (x !== 1) {
+
+                document.getElementById("text-005").style.color = "red";
+                return false;
+
+            }
+
+            if (x == 1) {
+
+                document.getElementById("text-005").style.color = "gray";
+
+            }
+
+        }
+
+
+
+    </script>
+
+
+</head>
+
+<body>
+
+    <div class="setting-001">
+
+        <img src="1.png" class="setting-002">
+
+        <div class="setting-003"></div>
+        <div class="setting-004"></div>
+        <div class="setting-005"></div>
+
+        <a href="#" class="setting-006">
+            <img src="3.png"> Previous Page
+        </a>
+
+        <img src="2.png" class="setting-007">
+
+        <form class="form-001" onsubmit="return shepaseba1()">
+
+            <h3 class="text-001">Your Payment Details</h3>
+
+            <div>
+                <p class="text-002">CARDHOLDER’S NAME</p>
+                <input type="text" name="name" class="input-001" id="pirveli1">
+            </div>
+
+            <div style="margin: 20px 0;">
+                <p class="text-002">CARD NUMBER</p>
+                <input type="text"
+                    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                    maxlength="19" class="input-001" id="meore1">
+            </div>
+
+            <div class="setting-008">
+
+                <div>
+                    <p class="text-002">EXPIRATION DATE</p>
+                    <div style="position: relative;">
+                        <input type="date" class="input-002" onclick="gamochena()" id="mesame1">
+                        <img src="4.png" style="position: absolute; top: 0; right: 0;">
+                    </div>
+                </div>
+
+                <div>
+                    <p class="text-002">CVV</p>
+                    <input type="number"
+                        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                        type="number" maxlength="3" class="input-002" id="meotxe1">
+                </div>
+
+            </div>
+
+
+            <div style="display: flex; align-items: center; gap: 10px; padding: 30px 10px;">
+                <img id="poto1" src="5.png" onclick="gaperadeba1()" style="opacity: 0.5;">
+                <span class="text-003" id="text-005">Save my details for further payment.</span>
+            </div>
+
+
+            <button type="submit" class="button-001">Pay Now</button>
+
+        </form>
+
+    </div>
+
+
+    <div class="setting-101">
+
+        <form class="form-002" onsubmit="return shepaseba()">
+
+            <h3 class="text-001">Your Payment Details</h3>
+
+            <div>
+                <p class="text-002">CARDHOLDER’S NAME</p>
+                <input type="text" name="name" class="input-001" id="pirveli">
+            </div>
+
+            <div style="margin: 20px 0;">
+                <p class="text-002">CARD NUMBER</p>
+                <input type="text"
+                    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                    maxlength="19" class="input-001" id="meore">
+            </div>
+
+            <div class="setting-008">
+
+                <div>
+                    <p class="text-002">EXPIRATION DATE</p>
+                    <div style="position: relative;">
+                        <input type="date" class="input-002" id="mesame">
+                        <img src="4.png" class="change-001" onclick="gamochena()"
+                            style="position: absolute; top: 0; right: 0;">
+                    </div>
+                </div>
+
+                <div>
+                    <p class="text-002">CVV</p>
+                    <input type="number"
+                        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                        type="number" maxlength="3" class="input-002" id="meotxe">
+                </div>
+
+            </div>
+
+
+            <div style="display: flex; align-items: center; gap: 10px; padding: 30px 0;">
+                <img id="poto2" src="5.png" onclick="gaperadeba()" style="opacity: 0.5;">
+                <span class="text-003" id="text-004">Save my details <br class="hidden-1"> for further payment.</span>
+            </div>
+
+
+            <button class="button-001" type="submit">Pay Now</button>
+
+        </form>
+
+    </div>
+
+
+
+    <script>
+
+        document.getElementById('meore1').addEventListener('input', function (e) {
+            e.target.value = e.target.value.replace(/[^\dA-Z]/g, '').replace(/(.{4})/g, '$1 ').trim();
+        });
+
+
+        document.getElementById('meore').addEventListener('input', function (e) {
+            e.target.value = e.target.value.replace(/[^\dA-Z]/g, '').replace(/(.{4})/g, '$1 ').trim();
+        });
+
+
+        function gamochena() {
+            document.getElementById("mesame").style.color = "#555555";
+            document.getElementById("mesame1").style.color = "#555555";
+        }
+
+    </script>
+
+
+</body>
+
+</html>
